@@ -18,7 +18,7 @@ namespace WebAPITestConsole.Controllers
 
         private void RunExecutable(string arguments) 
         {
-            var fileName = HttpContext.Current.Server.MapPath("/content/WebAPIConsole.exe");
+            var fileName = HttpContext.Current.Server.MapPath("/GeometryDash.exe");
 
             Process process = new Process();
 
